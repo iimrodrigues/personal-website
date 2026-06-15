@@ -1,0 +1,30 @@
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-section {
+    display: flex;
+}
+
+.skills-interests-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills {
+    display: flex;
+    gap: 16px;
+}

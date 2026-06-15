@@ -5,67 +5,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
+
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <a>About</a>
-    <a>Projects</a>
-    <a>Design & Art</a>
+    <div class="nav-bar">
+        <a>About</a>
+        <a>Projects</a>
+        <a>Design & Art</a>
+    </div>
 
-    <h1>Ines Machinho Rodrigues</h1>
-    <h3>Software Systems Major @ Simon Fraser University</h3>
-    <img src="./images/personal-avatar.png" width="300">
-    <p><strong>Languages:</strong> English (Fluent), Portuguese (Native), Japanese (Beginner)</p>
-    <p>I'm a Software Systems student at Simon Fraser University with a passion for combining technology, design, and
-        creativity. Having explored a variety of creative mediums, including digital art, traditional art, 3D modelling,
-        clay, and crochet, I enjoy bringing ideas to life through both technical and artistic approaches.</p>
+    <div class="main">
+        <div class="hero-section">
+            <div class="hero-text">
+                <h1>Ines Machinho Rodrigues</h1> <!-- make typing animation intro -->
+                <h3>Software Systems Major @ Simon Fraser University</h3>
+                <p><strong>Languages:</strong> English (Fluent), Portuguese (Native), Japanese (Beginner)</p>
+                <p>I'm a Software Systems student at Simon Fraser University with a passion for combining technology,
+                    design, and creativity. Having explored a variety of creative mediums, including digital art,
+                    traditional art, 3D
+                    modelling, clay, and crochet, I enjoy bringing ideas to life through both technical and artistic
+                    approaches.</p>
 
-    <p>Through running my small hobby shop, AnicuteShop, I've developed an interest in product design, branding, and
-        creating experiences that people genuinely enjoy. Today, I'm particularly interested in front-end development
-        and UI/UX design, where I can combine creativity, design thinking, and technology to create engaging user
-        experiences.</p>
+                <p>Through running my small hobby shop, AnicuteShop, I've developed an interest in product design,
+                    branding,
+                    and creating experiences that people genuinely enjoy. Today, I'm particularly interested in
+                    front-end
+                    development and UI/UX design, where I can combine creativity, design thinking, and technology to
+                    create engaging
+                    user experiences.</p>
+            </div>
 
-    <h2>Education</h2>
-    <ul>
-        <li>The Odin Project - Web Development Curriculum <span>May 2026 - Present</span></li>
-        <li>BASc. Computer Science - Software Systems @ Simon Fraser University <span>Sept 2020 - May 2027
-                (Expected)</span></li>
-        <li>Concept Art Diploma @ VANAS <span>Jan 2023 - Dec 2023</span></li>
-        <li>Introduction to Digital Arts @ VANAS <span>Dec 2022</span></li>
-    </ul>
+            <img src="./images/personal-avatar.png" width="350">
+        </div>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>C/C++</li>
-        <li>Java</li>
-        <li>SQL</li>
-    </ul>
-    <ul>
-        <li>Git/GitHub</li>
-        <li>Command Line</li>
-        <li>Chrome DevTools</li>
-    </ul>
-    <ul>
-        <li>Figma</li>
-        <li>Balsamiq</li>
-        <li>Maze</li>
-        <li>Canva</li>
-        <li>Adobe Photoshop</li>
+        <div class="educ-section">
+            <h2>Education</h2>
+            <ul>
+                <li>The Odin Project - Web Development Curriculum <span class="edu-date">May 2026 - Present</span></li>
+                <li>BASc. Computer Science - Software Systems @ Simon Fraser University <span class="edu-date">Sept 2020 - May 2027
+                        (Expected)</span></li>
+                <li>Concept Art Diploma @ VANAS <span class="edu-date">Jan 2023 - Dec 2023</span></li>
+                <li>Introduction to Digital Arts @ VANAS <span class="edu-date">Dec 2022</span></li>
+            </ul>
+        </div>
 
-    </ul>
+        <div class="skills-interests-section">
+            <div class="skill-section">
+                <h2>Skills</h2>
+                <div class="skills">
+                    <div class="programming">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>C/C++</li>
+                            <li>Java</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="dev-tools">
+                        <ul>
+                            <li>Git/GitHub</li>
+                            <li>Command Line</li>
+                            <li>Chrome DevTools</li>
+                        </ul>
+                    </div>
+                    <div class="design-research">
+                        <ul>
+                            <li>Figma</li>
+                            <li>Balsamiq</li>
+                            <li>Maze</li>
+                            <li>Canva</li>
+                            <li>Adobe Photoshop</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-    <h2>Interests</h2>
-    <ul>
-        <li>UI/UX Design</li>
-        <li>Front-end Development</li>
-        <li>Product Design</li>
-        <li>Character Design</li>
-        <li>Visual Storytelling</li>
-        <li>Crochet</li>
-        <li>Japanese Language, Music & Media</li>
-    </ul>
+            <div class="interest-section">
+                <h2>Interests</h2>
+                <div class="interests">
+                    <ul>
+                        <li>UI/UX Design</li>
+                        <li>Front-end Development</li>
+                        <li>Product Design</li>
+                        <li>Character Design</li>
+                        <li>Visual Storytelling</li>
+                        <li>Crochet</li>
+                        <li>Japanese Language, Music & Media</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
