@@ -3,22 +3,34 @@ body {
 
     font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 ul {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
 li {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
 }
 
+/* TODO: fix img link margins vs avatar margins */
 img {
     margin-top: -28px;
+    margin-bottom: 16px;
+    margin-right: -28px;
+}
+
+.links img {
+    margin-right: 0px;
+}
+
+.links {
+    margin-right: -28px;
 }
 
 .nav-bar {
@@ -36,12 +48,18 @@ img {
     padding: 16px 0px;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
 /* HERO SECTION STYLING */
 .hero-section {
     display: flex;
     gap: 48px;
 
-    margin: 32px;
+    margin: 48px 32px 0px 32px;
 }
 
 .hero-text {
@@ -60,7 +78,7 @@ img {
     min-height: 200px;
     padding: 32px;
     padding-right: 84px;
-    margin-right: -164px;
+    margin-right: -136px;
 }
 
 .intro h1 {
@@ -69,6 +87,7 @@ img {
     font-size: 64px;
     font-weight: 900;
 
+    padding-right: 64px;
     margin-bottom: 8px;
 }
 
@@ -110,15 +129,52 @@ img {
     gap: 16px;
 }
 
-/* EDUCATION SECTION STYLING */
+/* EDUCATION / SKILLS / INTERESTS SECTION STYLING */
+.educ-section, .skills-interests-section {
+    color:#2c2c2c;
 
-/* SKILLS / INTERESTS SECTION STYLING */
+    font-size: 18px;
+    text-indent: 16px;
+
+    padding: 0px 64px 0px 32px;
+    margin-bottom: 32px;
+}
+
+.educ-section h2, .skills-interests-section h2 {
+    background-color: #dbbfbf;
+    color: #8C2944;
+
+    text-indent: 0px;
+
+    border-radius: 15px;
+
+    padding: 12px;
+    margin-top: 0px;
+}
+
+.edu-date {
+    text-indent: 0px;
+}
+
+.line {
+    background-color: #8a8f98;
+
+    flex: 1;
+    height: 1px;
+}
+
+
 .skills-interests-section {
     display: flex;
     justify-content: space-between;
 }
 
-.skills {
+.skill-section, .interest-section {
+    min-width: 50%;
+    padding: 16px 16px 16px 0px;
+}
+
+.skills, .interests {
     display: flex;
-    gap: 16px;
+    gap: 22px;
 }
