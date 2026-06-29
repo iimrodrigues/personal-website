@@ -94,6 +94,10 @@ img {
     text-indent: 0px;
 }
 
+.desc em {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .avatar-links {
     display: flex;
     flex-direction: column;
