@@ -1,3 +1,12 @@
+body {
+    background-color: #ecdfdf;
+
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+
 ul {
     padding: 0;
     margin: 0;
@@ -8,17 +17,82 @@ li {
     justify-content: space-between;
 }
 
+img {
+    margin-top: -24px;
+}
+
 .nav-bar {
+    background-color: #8C2944;
+    color: #dbbfbf;
+
+    font-size: 16px;
+    font-weight: 900;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 32px;
+
+    padding: 16px 0px;
 }
 
+/* HERO SECTION STYLING */
 .hero-section {
     display: flex;
+    gap: 48px;
+
+    margin: 32px;
 }
 
+.intro {
+    background-color: #dbbfbf;
+    color: #2c2f35;
+
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 200px;
+    padding: 32px;
+    padding-right: 84px;
+    margin-right: -164px;
+}
+
+.intro h1 {
+    color: #8C2944;
+
+    font-size: 64px;
+    font-weight: 900;
+
+    margin-bottom: 8px;
+}
+
+.intro h3 {
+    font-size: 18px;
+    font-weight: 900;
+
+    margin-top: 8px;
+}
+
+.desc {
+    font-size: 18px;
+    text-indent: 24px;
+
+    padding-left: 16px;
+}
+
+.desc .langs {
+    color: #474b54;
+
+    font-size: 14px;
+    text-indent: 0px;
+}
+
+/* EDUCATION SECTION STYLING */
+
+/* SKILLS / INTERESTS SECTION STYLING */
 .skills-interests-section {
     display: flex;
     justify-content: space-between;
