@@ -35,7 +35,6 @@ img {
 
 .nav-bar {
     background-color: #8C2944;
-    color: #dbbfbf;
 
     font-size: 16px;
     font-weight: 900;
@@ -46,6 +45,11 @@ img {
     gap: 32px;
 
     padding: 16px 0px;
+}
+
+.nav-bar a {
+    color: #dbbfbf;
+    text-decoration: none;
 }
 
 .main {
