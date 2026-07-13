@@ -33,6 +33,7 @@ li {
     gap: 32px;
 
     padding: 16px 0px;
+    margin-bottom: 48px;
 }
 
 .nav-bar a {
@@ -43,14 +44,15 @@ li {
 .main {
     display: flex;
     flex-direction: column;
-    gap: 64px;
+
+    gap: 124px;
+    margin: 0px 64px;
 }
 
 /* HERO SECTION STYLING */
 .hero-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .hanger {
@@ -85,13 +87,16 @@ li {
     transform: translateY(-50%) translateX(5%);
 }
 
+.hero-hang-hole {
+    align-self: center;
+}
+
 .hero-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 48px;
 
-    margin: 48px 32px 0px 32px;
+    margin: 0px 32px;
 }
 
 .intro {
@@ -102,9 +107,10 @@ li {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 
     padding: 84px;
+    padding-right: 300px;
 }
 
 .intro h1 {
@@ -144,8 +150,12 @@ li {
     flex-direction: column;
     align-items: center;
 
-    margin: 48px 32px 0px 32px;
+    margin: 0px 32px;
     padding: 84px;
+}
+
+.welcome-desc p {
+    text-indent: 32px;
 }
 
 /* EDUCATION / SKILLS / INTERESTS SECTION STYLING */
@@ -192,7 +202,7 @@ li {
     flex-wrap: wrap;
     justify-content: space-between;
 
-    gap: 32px;
+    gap: 48px;
     margin: 0px 32px;
 }
 
@@ -209,4 +219,5 @@ li {
     display: flex;
     justify-content: space-between;
     padding: 0px 16px;
+    margin-top: 48px;
 }
