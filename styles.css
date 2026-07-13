@@ -129,12 +129,6 @@ li {
     margin-top: 8px;
 }
 
-.links {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
-
 /* DESC STYLING */
 .welcome-desc {
     background-color: #ECDFDF;
@@ -220,4 +214,14 @@ li {
     justify-content: space-between;
     padding: 0px 16px;
     margin-top: 48px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.links a {
+    display: flex;
 }
